@@ -1,0 +1,34 @@
+{
+  "name": "video-to-all",
+  "version": "1.0.2",
+  "description": "frontend video conversion tools",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "author": "Prince Vishwakarma <princevworld@gmail.com> (https://github.com/princevish)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/princevish/video-to-all.git"
+  },
+  "keywords": [
+    "utils"
+  ],
+  "bugs": {
+    "url": "https://github.com/princevish/video-to-all/issues"
+  },
+  "homepage": "https://github.com/princevish/video-to-all#readme",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "dependencies": {
+    "@ffmpeg/core": "^0.12.6",
+    "@ffmpeg/ffmpeg": "^0.12.10"
+  }
+}
