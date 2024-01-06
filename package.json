@@ -1,7 +1,7 @@
 {
   "name": "video-to-all",
-  "version": "1.0.2",
-  "description": "frontend video conversion tools",
+  "version": "1.0.0",
+  "description": "Convert a video file to an animated GIF with Web Assembly.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -15,7 +15,10 @@
     "url": "git+https://github.com/princevish/video-to-all.git"
   },
   "keywords": [
-    "utils"
+    "video to gif",
+    "gif",
+    "converter",
+    "video"
   ],
   "bugs": {
     "url": "https://github.com/princevish/video-to-all/issues"
